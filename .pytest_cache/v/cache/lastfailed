@@ -1,0 +1,4 @@
+{
+  "tests/test_webguard.py::test_url_phishing_detection": true,
+  "tests/test_webguard.py::test_performance": true
+}

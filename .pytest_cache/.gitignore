@@ -1,0 +1,31 @@
+# Node
+node_modules/
+npm-debug.log*
+
+# Python
+__pycache__/
+*.py[cod]
+*.pkl
+*.log
+env/
+venv/
+ENV/
+*.env
+.env.*
+
+# VSCode
+.vscode/
+
+# macOS/Linux/Windows
+.DS_Store
+Thumbs.db
+
+# Test/output
+coverage/
+*.cover
+*.log
+logs/
+test-results/
+
+# Chrome extension cache
+extension/cache/

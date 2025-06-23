@@ -1,0 +1,35 @@
+{
+  "manifest_version": 3,
+  "name": "WEBGUARD",
+  "description": "Proteja sua navegação com segurança e eficiência",
+  "version": "1.0",
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "scripting",
+    "storage",
+    "notifications"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "assets/WebGuard.png",
+      "48": "assets/WebGuard.png",
+      "128": "assets/WebGuard.png",
+      "316": "assets/icon48.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "host_permissions": [
+    "http://127.0.0.1:5000/*",
+    "https://mail.google.com/*",
+    "https://outlook.live.com/*"
+  ],
+  "icons": {
+    "16": "assets/WebGuard.png",
+    "48": "assets/WebGuard.png",
+    "128": "assets/WebGuard.png"
+  }
+}

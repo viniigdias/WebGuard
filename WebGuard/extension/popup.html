@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self'; object-src 'none';">
+    <title>WebGuard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.15/dist/sweetalert2.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="card" id="card">
+      <div class="neon-container">
+        <h1 class="neon-text">WEBGUARD</h1>
+      </div>
+      <img src="assets/WebGuard.png" id="logo" alt="Logo WebGuard">
+      <span id="text-child">Proteja sua navegação com segurança e eficiência!</span>
+
+      <div style="display: flex; justify-content: center; gap: 10px; margin-top: 10px;">
+        <!-- <a href="#">
+          <i></i><i></i>
+          <span id="checkButton" class="checkButton">Verificar Site</span>
+        </a> -->
+        <a href="#">
+          <i></i><i></i>
+          <span id="checkEmailButton" class="">Verificar E-mail</span>
+        </a>
+      </div>
+
+      <a href="#">
+        <i></i><i></i>
+        <span id="reportButton" class="checkButton">Reportar erro</span>
+      </a>
+
+      <div id="result" style="margin-top: 10px; font-size: 14px; color: #fff;"></div>
+      <div id="loader" class="loader"></div>
+      <div id="overlay"></div>
+
+      <div id="reportModal" class="modal">
+        <div class="modal-content">
+          <h2>Reportar erro de verificação</h2>
+          <label for="report-url">URL (opcional):</label>
+          <input id="report-url" type="text" placeholder="Insira a URL, se diferente da atual" />
+          <label for="report-type">Tipo de erro:</label>
+          <select id="report-type">
+            <option value="false-positive">Falso Positivo</option>
+            <option value="false-negative">Falso Negativo</option>
+          </select>
+          <label for="report-comment">Comentários:</label>
+          <textarea id="report-comment" rows="4" placeholder="Descreva o problema..."></textarea>
+          <button id="submit-report">Enviar Relatório</button>
+          <button id="close-modal">Fechar</button>
+        </div>
+      </div>
+
+      
+      <script src="sweetalert2.all.min.js"></script>
+      <script src="popup.js"></script>
+    </div>
+  </body>
+</html>

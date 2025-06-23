@@ -1,0 +1,5 @@
+[
+  "tests/test_webguard.py::test_email_phishing_detection",
+  "tests/test_webguard.py::test_performance",
+  "tests/test_webguard.py::test_url_phishing_detection"
+]

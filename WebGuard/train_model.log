@@ -1,0 +1,12 @@
+2025-06-04 16:16:19,412 - INFO - Carregando dataset_phishing_and_security.csv
+2025-06-04 16:16:19,427 - INFO - Dataset carregado com 30016 linhas
+2025-06-04 16:16:22,204 - INFO - Distribuição de classes: 1    30016
+0    30016
+Name: count, dtype: int64
+2025-06-04 16:16:22,220 - INFO - Iniciando treinamento do modelo
+2025-06-04 16:16:33,473 - INFO - Acurácia: 1.0000
+2025-06-04 16:16:33,489 - INFO - Precisão: 1.0000
+2025-06-04 16:16:33,489 - INFO - Recall: 1.0000
+2025-06-04 16:16:33,489 - INFO - F1-Score: 1.0000
+2025-06-04 16:16:37,007 - INFO - Acurácia média (CV): 1.0000 (+/- 0.00)
+2025-06-04 16:16:37,007 - INFO - Modelo treinado e salvo com sucesso

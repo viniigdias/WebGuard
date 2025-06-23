@@ -1,0 +1,10 @@
+2025-06-06 17:04:44,792 - INFO - Connected to Redis successfully
+2025-06-06 17:04:44,861 - INFO - MySQL connection and error_reports table initialized successfully
+2025-06-06 17:04:44,877 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-06 17:04:44,877 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-06 17:04:44,878 - INFO -  * Restarting with stat
+2025-06-06 17:04:45,629 - INFO - Connected to Redis successfully
+2025-06-06 17:04:45,674 - INFO - MySQL connection and error_reports table initialized successfully
+2025-06-06 17:04:45,688 - WARNING -  * Debugger is active!
+2025-06-06 17:04:45,693 - INFO -  * Debugger PIN: 817-846-141
